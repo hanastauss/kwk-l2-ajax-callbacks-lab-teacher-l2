@@ -18,24 +18,30 @@
       }
     </style>
   </head>
+
   <body>
     <main id="main">
-      <div id="search"></div>
-        <div id="searchTerms"> <input> Enter your search term here. </div>
-        <div id="searchButton"> <button> Search </button></div>
+      <form class="search">
+        <input type="text" id="searchTerms">
+        <input type="submit" id="searchRepositories" value="Search Repositories">
+      </form>
+
       <div id="errors"></div>
     </main>
+
     <div class="flexbox-container">
       <div>
         <h3>Repositories</h3>
         <div id="results"></div>
       </div>
+
       <div>
         <h3>Details</h3>
         <div id="details"></div>
       </div>
     </div>
-    <script src="jquery-3.1.0.min.js"></script>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
