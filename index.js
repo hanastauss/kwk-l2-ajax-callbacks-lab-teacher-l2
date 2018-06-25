@@ -1,8 +1,10 @@
 $(document).ready(function (){
   
-  function searchRepositories(){
+$('serch')
+
+function searchRepositories(){
     
-  }
+}
   
   
 });
