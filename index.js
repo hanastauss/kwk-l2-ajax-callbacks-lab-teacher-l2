@@ -1,8 +1,10 @@
 $(document).ready(function (){
   
-$('searchButton').click(searchRepositories() )
+$('#searchButton').click(searchRepositories() )
 
 function searchRepositories(){
+  let term = $('#searchTerms')
+  console.log(term)
     
 }
   
